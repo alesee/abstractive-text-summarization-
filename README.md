@@ -46,7 +46,8 @@ Current Features
 
 To-Do
 --
-
+* implement beam search at inference time
+* experiment with transformer network 
 
 
 
