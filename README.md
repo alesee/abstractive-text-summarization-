@@ -36,10 +36,10 @@ An example article-title pair looks like this:
 
 Training on the complete dataset (3M) would take a really long time. So in order to train and experiment faster we use our sample subset of 80,000. 
 
-Features
+Current Features
 --
-* model architecture supports LSTM & GRU (bLSTM-LSTM or bGRU-GRU)
-* implements (Bahdanau et al. & Luong et al.(dot)) attention mechanism 
+* model architecture supports LSTM & GRU (biLSTM-LSTM or biGRU-GRU)
+* implements attention mechanism (Bahdanau et al. & Luong et al.(dot))
 * implements three way tied embeddings (encoder input, decoder input and decoder output embedding)
 * initializes encoder-decoder with pretrained embeddings (e.g. fasttext, glove)
 * implements custom callbacks during training (tensorboard visualization for PyTorch, save best model & log checkpoint)
