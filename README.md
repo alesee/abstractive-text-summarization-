@@ -38,7 +38,7 @@ Training on the complete dataset (3M) would take a really long time. So in order
 
 Features
 --
-* model architecture supports LSTM & GRU (LSTM-LSTM or GRU-GRU)
+* model architecture supports LSTM & GRU (bLSTM-LSTM or bGRU-GRU)
 * implements (Bahdanau et al. & Luong et al.(dot)) attention mechanism 
 * implements three way tied embeddings (encoder input, decoder input and decoder output embedding)
 * initializes encoder-decoder with pretrained embeddings (e.g. fasttext, glove)
