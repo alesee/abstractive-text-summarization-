@@ -10,7 +10,7 @@ Requirements
 
 `conda env create -f environment-cpu.yml`  --cpu
 
-2. Install dependencies via:
+2. Install dependencies (PyTorch, Fastai, etc) via:
 
 `pip install -r requirements.txt`
 
@@ -34,7 +34,7 @@ An example article-title pair looks like this:
 `target: algeria adopts #### finance bill with oil put at ## dollars a barrel`
 
 
-Training on the complete dataset (3M) would take a really long time. So in order to train and experiment faster we use our sample subset of 80,000. 
+Experimenting on the complete dataset (3M) would take a really long time (=$$$$). So in order to train and experiment faster we use our sample subset of 80,000. 
 
 Current Features
 --
