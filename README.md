@@ -39,9 +39,10 @@ Experimenting on the complete dataset (3M) would take a really long time (=$$$$)
 Current Features
 --
 * model architecture supports LSTM & GRU (biLSTM-LSTM or biGRU-GRU)
-* implements attention mechanism (Bahdanau et al. & Luong et al.(dot))
-* implements three way tied embeddings (encoder input, decoder input and decoder output embedding)
-* initializes encoder-decoder with pretrained embeddings (e.g. fasttext, glove)
+* implements attention mechanism ([Bahdanau et al.](https://arxiv.org/abs/1409.0473) & [Luong et al.(global dot](https://arxiv.org/abs/1508.04025))
+* implements [scheduled teacher forcing](https://arxiv.org/abs/1506.03099)
+* implements [three-way-tied embeddings](https://arxiv.org/pdf/1608.05859.pdf)(encoder input, decoder input and decoder output embedding)
+* initializes encoder-decoder with pretrained vectors (e.g. fasttext, glove)
 * implements custom callbacks during training (tensorboard visualization for PyTorch, save best model & log checkpoint)
 
 To-Do
