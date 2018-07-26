@@ -46,8 +46,6 @@ Features
 
 To-Do
 --
-* implement beam search during inference
-* implement transformer model
 
 
 
