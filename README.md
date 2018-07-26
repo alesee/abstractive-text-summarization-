@@ -29,9 +29,9 @@ After downloading, we created article-title pairs, saved in tabular datset forma
 
 An example article-title pair looks like this:
 
-`article: the algerian cabinet chaired by president abdelaziz bouteflika on sunday adopted the #### finance bill predicated on an oil price of ## dollars a barrel and a growth rate of #.# percent , it was announced here .`
+`source: the algerian cabinet chaired by president abdelaziz bouteflika on sunday adopted the #### finance bill predicated on an oil price of ## dollars a barrel and a growth rate of #.# percent , it was announced here .`
 
-`title: algeria adopts #### finance bill with oil put at ## dollars a barrel`
+`target: algeria adopts #### finance bill with oil put at ## dollars a barrel`
 
 
 Training on the complete dataset (3M) would take a really long time. So in order to train and experiment faster we use our sample subset of 80,000. 
