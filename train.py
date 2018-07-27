@@ -21,7 +21,7 @@ def get_model():
     print('='*100 + '\n')
     return model_data, model
 
-def train(model_data, model):
+def main(model_data, model):
     if USE_GPU: model.cuda()
     opt_fn = partial(optim.Adam, betas=(0.8, 0.99))
     learn = RNN_Learner(model_data, SingleModel(model), opt_fn=opt_fn)
@@ -37,5 +37,5 @@ def train(model_data, model):
 
 if __name__ == '__main__':
     model_data, model = get_model()
-    train(model_data, model)
+    main(model_data, model)
     
