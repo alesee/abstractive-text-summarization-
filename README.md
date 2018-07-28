@@ -47,7 +47,7 @@ Current Features
 
 To-Do
 --
-* implement sample softmax loss
+* implement [sample softmax loss](https://arxiv.org/abs/1412.2007) for large vocab 
 * implement beam search at inference time
 * experiment with transformer network 
 
