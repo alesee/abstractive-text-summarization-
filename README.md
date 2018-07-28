@@ -47,6 +47,7 @@ Current Features
 
 To-Do
 --
+* implement sample softmax 
 * implement beam search at inference time
 * experiment with transformer network 
 
