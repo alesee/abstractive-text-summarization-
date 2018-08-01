@@ -1,6 +1,7 @@
 # abstractive-text-summarization
 
-This repository contains code for in-progress summarization experiments on a subset of the gigaword dataset.
+This repository contains code for in-progress implementation of the [Abstractive Text Summarization using Sequence-to-sequence RNNs and
+Beyond](https://arxiv.org/abs/1602.06023) paper.
 
 Requirements
 ---
