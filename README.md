@@ -1,7 +1,6 @@
 # abstractive-text-summarization
 
-This repository contains code for in-progress implementation of the [Abstractive Text Summarization using Sequence-to-sequence RNNs and
-Beyond](https://arxiv.org/abs/1602.06023) paper.
+This repository contains code for in-progress implementation of the [Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond](https://arxiv.org/abs/1602.06023) paper.
 
 Requirements
 ---
@@ -39,8 +38,8 @@ Experimenting on the complete dataset (3M) would take a really long time (also $
 
 Current Features
 --
-* model architecture supports LSTM & GRU (biLSTM-LSTM or biGRU-GRU)
-* implements attention mechanism ([Bahdanau et al.](https://arxiv.org/abs/1409.0473) & [Luong et al.(global dot](https://arxiv.org/abs/1508.04025))
+* model architecture supports LSTM & GRU (biLSTM-uniLSTM or biGRU-uniGRU)
+* implements attention mechanism ([Bahdanau et al.](https://arxiv.org/abs/1409.0473) & [Luong et al.(global dot)](https://arxiv.org/abs/1508.04025)
 * implements [scheduled teacher forcing](https://arxiv.org/abs/1506.03099)
 * implements [three-way-tied embeddings](https://arxiv.org/pdf/1608.05859.pdf)(encoder input, decoder input and decoder output embedding)
 * initializes encoder-decoder with pretrained vectors (e.g. fasttext, glove)
@@ -48,9 +47,8 @@ Current Features
 
 To-Do
 --
-* implement [sample softmax loss](https://arxiv.org/abs/1412.2007) for large vocab 
-* implement beam search at inference time
-* experiment with transformer network 
-
-
-
+* Implement additional linguistic features embeddings  
+* Implement generator-pointer switch
+* Implement large vocabulary trick 
+* Implement sentence level attention 
+* Implement beam search 
